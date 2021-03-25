@@ -82,7 +82,7 @@ namespace Hangman
             }
             else
             {
-                Toast.MakeText(this, "Please Enter Your Name!", ToastLength.Long).Show();
+                Toast.MakeText(this, "Please Enter Your Name!", ToastLength.Long).Show();//player will add name to start game
             }
         }
     }
