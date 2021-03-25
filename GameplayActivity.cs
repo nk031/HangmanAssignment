@@ -18,7 +18,7 @@ namespace Hangman
     [Activity(Label = "Hangman", Theme = "@style/AppTheme")]
     public class GameplayActivity : AppCompatActivity, BottomNavigationView.IOnNavigationItemSelectedListener
     {
-        // Keys
+        // button Keys
         Button btnA;
         Button btnB;
         Button btnC;

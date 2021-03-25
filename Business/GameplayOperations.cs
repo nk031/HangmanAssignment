@@ -16,6 +16,7 @@ namespace Hangman
     {
         private static string[] AnimalData()
         {
+            //animals name for game operators
             string[] animals = new string[] {
                 "Aardvark",
                 "Albatross",
@@ -265,6 +266,7 @@ namespace Hangman
 
         public static string GetRandomWord()
         {
+            //get random name while play
             List<string> Words = new List<string>();
             Words.AddRange(GetAnimals(AnimalData()));
             return Words[RandomNumber(Words.Count)];

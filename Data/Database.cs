@@ -110,6 +110,7 @@ namespace Hangman
 
         private static List<Users> GenerateFakeUserData()
         {
+            //some users name
             string[] firstNames = { "Liam", "Noah", "Oliver", "William", "Elijah", "James", "Benjamin", "Lucas", "Mason", "Ethan" };
             string[] lastNames = { "Smith", "Johnson", "Williams", "Brown", "Jones", "Garcia", "Miller", "Davis", "Rodriguez", "Martinez" };
 
