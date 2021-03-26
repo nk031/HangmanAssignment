@@ -89,7 +89,6 @@ namespace Hangman
                 "Ferret",
                 "Finch",
                 "Fish",
-                "Flamingo",
                 "Fly",
                 "Fox",
                 "Frog",
@@ -247,7 +246,7 @@ namespace Hangman
                 "Yak",
                 "Zebra"
             };
-            return animals;
+            return animals;//return value
         }
 
         private static IEnumerable<string> GetAnimals(string[] animals)
@@ -270,7 +269,7 @@ namespace Hangman
 
         public static string GetRandomWord()
         {
-            //get random name while play
+            //get random animal name while play
             List<string> Words = new List<string>();
             Words.AddRange(GetAnimals(AnimalData()));
             return Words[RandomNumber(Words.Count)];
