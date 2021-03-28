@@ -12,7 +12,7 @@ using Android.Widget;
 
 namespace Hangman
 {
-    class GameplayOperations
+    class GameplayOperations // this is a class
     {
         private static string[] AnimalData()
         {
